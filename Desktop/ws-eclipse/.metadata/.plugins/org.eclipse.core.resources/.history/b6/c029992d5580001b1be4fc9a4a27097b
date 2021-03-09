@@ -1,0 +1,14 @@
+import java.util.Locale;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		String nome = "Wellington";
+		int idade = 19;
+		double salario = 25.000;
+		
+		System.out.printf("%s tem %d anos e ganha um total de %.5f", nome, idade, salario);
+	}
+
+}

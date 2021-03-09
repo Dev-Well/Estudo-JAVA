@@ -1,0 +1,21 @@
+import java.util.Locale;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		int a = 13;
+		double x = 13.253646;
+		int metros = 7;
+		
+		System.out.println("Hello, World");
+		System.out.println(a);
+		System.out.println(x);
+		System.out.printf("%.2f%n", x);
+		System.out.printf("%.3f%n", x);
+		System.out.printf("Metros: " + metros + "de diametro");
+		Locale.setDefault(Locale.US);
+
+	}
+
+}
